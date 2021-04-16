@@ -136,11 +136,19 @@ button:hover{
 }
 
 
-/*mobile display*/
+/*mobile responsive design*/
 
 @media screen and (max-width: 500px){
-    
-    box-decoration-break:;
+
+/*GENERAL STYLES*/
+
+    a{
+        font-size: 85%;
+    }
+    h1{
+        font-size: 200%;
+    }
+
 /*HEADER STYLES */
 
     header{
@@ -148,7 +156,7 @@ button:hover{
         justify-content: center;
     }
     nav{
-        width:60%;
+        width:40%;
     }
     
 /*Title Section Styles*/
@@ -163,8 +171,14 @@ button:hover{
         align-items: center;
         
     }
-    
-    
+    .title-container div{
+        width: 100%;
+        height: 35vh;
+    }
+
+    .title-container hr{
+        width:100%;
+    }
     
     
 /*Artists Section Styles */
@@ -178,15 +192,15 @@ button:hover{
     }
 
     .artist{
-        width:80%;
+        width:70%;
         text-align:center;
     }
 
     .artist img{
-        width:75%;
+        width:65%;
         height: auto;
     }
     .bio{
-       font-size: 80%;
+       font-size: 70%;
     }
 }
