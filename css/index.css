@@ -143,7 +143,7 @@ button:hover{
 /*GENERAL STYLES*/
 
     a{
-        font-size: 85%;
+        font-size: 100%;
     }
     h1{
         font-size: 200%;
@@ -157,6 +157,10 @@ button:hover{
     }
     nav{
         width:40%;
+    }
+    nav span{
+        border-left:2px solid #626262;
+    
     }
     
 /*Title Section Styles*/
